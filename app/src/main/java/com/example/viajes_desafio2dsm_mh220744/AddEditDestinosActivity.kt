@@ -192,8 +192,8 @@ class AddEditDestinosActivity : AppCompatActivity() {
                     Toast.makeText(this, "Destino actualizado", Toast.LENGTH_SHORT).show()
                     finish()
                 }
-                .addOnFailureListener {
-                    Toast.makeText(this, "Error al actualizar", Toast.LENGTH_SHORT).show()
+                .addOnFailureListener { e ->
+                    Toast.makeText(this, "Error al actualizar: ${e.message}", Toast.LENGTH_LONG).show()
                 }
         } else {
             db.collection("destinos")
@@ -202,17 +202,32 @@ class AddEditDestinosActivity : AppCompatActivity() {
                     Toast.makeText(this, "Destino guardado", Toast.LENGTH_SHORT).show()
                     finish()
                 }
-                .addOnFailureListener {
-                    Toast.makeText(this, "Error al guardar", Toast.LENGTH_SHORT).show()
+                .addOnFailureListener { e ->
+                    Toast.makeText(this, "Error al guardar: ${e.message}", Toast.LENGTH_LONG).show()
                 }
         }
     }
 
     private fun convertirImagenABase64(uri: Uri): String {
         val inputStream = contentResolver.openInputStream(uri)
-        val bitmap = BitmapFactory.decodeStream(inputStream)
+        val originalBitmap = BitmapFactory.decodeStream(inputStream)
+
+        val maxWidth = 800
+        val maxHeight = 800
+
+        val ratio = minOf(
+            maxWidth.toFloat() / originalBitmap.width,
+            maxHeight.toFloat() / originalBitmap.height
+        )
+
+        val width = (originalBitmap.width * ratio).toInt()
+        val height = (originalBitmap.height * ratio).toInt()
+
+        val resizedBitmap = Bitmap.createScaledBitmap(originalBitmap, width, height, true)
+
         val outputStream = ByteArrayOutputStream()
-        bitmap.compress(Bitmap.CompressFormat.JPEG, 70, outputStream)
+        resizedBitmap.compress(Bitmap.CompressFormat.JPEG, 40, outputStream)
+
         val bytes = outputStream.toByteArray()
         return Base64.encodeToString(bytes, Base64.DEFAULT)
     }
