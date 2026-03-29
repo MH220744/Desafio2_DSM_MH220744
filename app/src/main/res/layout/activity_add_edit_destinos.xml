@@ -65,7 +65,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
             android:entries="@array/countries_array"
-            android:backgroundTint="@color/md_theme_primary"
+            android:textColor="@color/black"
+            android:textColorHint="@color/gray_dark"
             tools:listitem="@android:layout/simple_spinner_dropdown_item" />
 
         <com.google.android.material.textfield.TextInputLayout
