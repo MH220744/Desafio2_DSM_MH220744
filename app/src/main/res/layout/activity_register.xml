@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -31,8 +30,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            app:hintTextColor="@color/gray_dark"
-            app:boxStrokeColor="@color/md_theme_primary">
+            app:boxStrokeColor="@color/md_theme_primary"
+            app:hintTextColor="@color/gray_dark">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/Name"
@@ -51,8 +50,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
-            app:hintTextColor="@color/gray_dark"
-            app:boxStrokeColor="@color/md_theme_primary">
+            app:boxStrokeColor="@color/md_theme_primary"
+            app:hintTextColor="@color/gray_dark">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/Email"
@@ -71,9 +70,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
+            app:boxStrokeColor="@color/md_theme_primary"
             app:endIconMode="password_toggle"
-            app:hintTextColor="@color/gray_dark"
-            app:boxStrokeColor="@color/md_theme_primary">
+            app:hintTextColor="@color/gray_dark">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/Password"
@@ -92,9 +91,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
+            app:boxStrokeColor="@color/md_theme_primary"
             app:endIconMode="password_toggle"
-            app:hintTextColor="@color/gray_dark"
-            app:boxStrokeColor="@color/md_theme_primary">
+            app:hintTextColor="@color/gray_dark">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/ConfirmPassword"
