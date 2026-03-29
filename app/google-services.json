@@ -7,7 +7,7 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:339726252384:android:c57e6b8385216c85a80605",
+        "mobilesdk_app_id": "",
         "android_client_info": {
           "package_name": "com.example.viajes_desafio2dsm_mh220744"
         }

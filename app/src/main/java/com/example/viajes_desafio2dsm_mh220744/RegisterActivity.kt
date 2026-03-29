@@ -30,7 +30,7 @@ class RegisterActivity : AppCompatActivity() {
         email = findViewById(R.id.Email)
         password = findViewById(R.id.Password)
         confirmPassword = findViewById(R.id.ConfirmPassword)
-        btnRegistrar = findViewById(R.id.btnRegistrar)
+        btnRegistrar = findViewById(R.id.btnRegister)
         irLogin = findViewById(R.id.IRLogin)
 
         btnRegistrar.setOnClickListener {

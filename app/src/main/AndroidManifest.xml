@@ -11,6 +11,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Viajes_Desafio2DSM_MH220744">
+        <activity android:name=".AddEditDestinosActivity" />
+        <activity android:name=".CatalogActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".SplashActivity" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
