@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Viajes_Desafio2DSM_MH220744</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="email">Correo electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="register">Registrarse</string>
+    <string name="full_name">Nombre completo</string>
+    <string name="confirm_password">Confirmar contraseña</string>
+    <string name="go_to_login">Ir a iniciar sesión</string>
+    <string name="catalog">Catálogo</string>
+    <string name="search_hint">Buscar destino</string>
+    <string name="logout">Cerrar sesión</string>
+    <string name="empty_catalog">No hay destinos registrados</string>
+    <string name="add_destino">Agregar destino</string>
+    <string name="welcome_title">Bienvenido</string>
+    <string name="welcome_subtitle">Explora destinos increíbles</string>
+    <string name="edit_destino">Editar</string>
+    <string name="delete">Eliminar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="destination_name">Nombre del destino</string>
+    <string name="package_price">Precio del paquete</string>
+    <string name="trip_description">Descripción del viaje</string>
+    <string name="image_content">Imagen del destino</string>
+    <string name="select_image">Seleccionar imagen</string>
+    <string name="save">Guardar</string>
+</resources>

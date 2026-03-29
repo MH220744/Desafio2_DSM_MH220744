@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "339726252384",
+    "project_id": "desafio2mh220744",
+    "storage_bucket": "desafio2mh220744.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:339726252384:android:c57e6b8385216c85a80605",
+        "android_client_info": {
+          "package_name": "com.example.viajes_desafio2dsm_mh220744"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKuCg5aTp1jzmBqGyU4X75IyhGkeiOt2s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
