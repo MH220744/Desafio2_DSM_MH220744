@@ -7,6 +7,7 @@
   "client": [
     {
       "client_info": {
+        "_comentario": "Aquí va el Mobile SDK App ID, se que no debe subirse a un github ya que es clave privada pero lo dejo para probar apk",
         "mobilesdk_app_id": "1:339726252384:android:c57e6b8385216c85a80605",
         "android_client_info": {
           "package_name": "com.example.viajes_desafio2dsm_mh220744"

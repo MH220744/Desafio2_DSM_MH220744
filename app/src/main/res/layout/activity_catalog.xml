@@ -16,9 +16,9 @@
             android:id="@+id/toolbarCatalog"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/black"
+            android:backgroundTint="@color/md_theme_primary"
             app:title="@string/catalog"
-            app:titleTextColor="@android:color/black"
+            app:titleTextColor="@color/black"
             tools:title="Catálogo" />
 
         <LinearLayout
@@ -31,7 +31,9 @@
                 style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                app:boxStrokeColor="@color/md_theme_primary"
+                app:hintTextColor="@color/gray_dark">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/Search"
@@ -39,6 +41,8 @@
                     android:layout_height="wrap_content"
                     android:hint="@string/search_hint"
                     android:inputType="text"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/gray_dark"
                     tools:hint="Buscar destino" />
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -48,7 +52,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="12dp"
                 android:text="@string/logout"
-                tools:text="Salir" />
+                android:textColor="@color/white"
+                app:backgroundTint="@color/md_theme_primary"
+                tools:text="Cerrar sesión" />
         </LinearLayout>
 
         <TextView
@@ -81,9 +87,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
-        android:layout_margin="16dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="40dp"
         android:contentDescription="@string/add_destino"
         android:src="@android:drawable/ic_input_add"
-        app:tint="@android:color/white" />
+        app:backgroundTint="@color/md_theme_primary"
+        app:tint="@color/white" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
