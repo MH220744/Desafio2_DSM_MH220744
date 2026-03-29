@@ -39,6 +39,12 @@ El archivo APK generado en modo debug se encuentra disponible para descarga en e
 
 ---
 
+##  Video demostración
+
+[Ver video en YouTube](https://youtu.be/v7cyz12nBMs?si=ExW5KQmsCt7uJABo)
+
+---
+
 ## Materia
 
 **Desarrollo de Software para Móviles (DSM)**  
