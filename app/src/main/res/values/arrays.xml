@@ -2,15 +2,45 @@
 <resources>
     <string-array name="countries_array">
         <item>Seleccione un país</item>
-        <item>El Salvador</item>
-        <item>Guatemala</item>
-        <item>Honduras</item>
-        <item>Nicaragua</item>
-        <item>Costa Rica</item>
-        <item>Panamá</item>
-        <item>México</item>
+        <item>Alemania</item>
+        <item>Argentina</item>
+        <item>Australia</item>
+        <item>Bélgica</item>
+        <item>Brasil</item>
+        <item>Canadá</item>
+        <item>Chile</item>
+        <item>China</item>
         <item>Colombia</item>
+        <item>Corea del Sur</item>
+        <item>Costa Rica</item>
+        <item>Cuba</item>
+        <item>Egipto</item>
+        <item>El Salvador</item>
+        <item>Emiratos Árabes Unidos</item>
         <item>España</item>
         <item>Estados Unidos</item>
+        <item>Filipinas</item>
+        <item>Francia</item>
+        <item>Guatemala</item>
+        <item>Honduras</item>
+        <item>India</item>
+        <item>Indonesia</item>
+        <item>Italia</item>
+        <item>Jamaica</item>
+        <item>Japón</item>
+        <item>Marruecos</item>
+        <item>México</item>
+        <item>Nicaragua</item>
+        <item>Nueva Zelanda</item>
+        <item>Países Bajos</item>
+        <item>Panamá</item>
+        <item>Perú</item>
+        <item>Portugal</item>
+        <item>Reino Unido</item>
+        <item>República Dominicana</item>
+        <item>Rusia</item>
+        <item>Suiza</item>
+        <item>Tailandia</item>
+        <item>Turquía</item>
     </string-array>
 </resources>
